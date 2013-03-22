@@ -6,6 +6,7 @@
 create table bar (
   id                        varchar(255) not null,
   name                      varchar(255),
+  opening_date              timestamp,
   constraint pk_bar primary key (id))
 ;
 
