@@ -1,6 +1,8 @@
-This is your new Play 2.1 application
+Sample Play 2.1.0 App
 =====================================
 
-This file will be packaged with your application, when using `play dist`.
 
-This file was modified by IntelliJ IDEA 12.0.4 for binding GitHub repository
+This is the sample app created as part of the video by James Ward from Typesafe.
+http://vimeo.com/58969923
+
+Have fun!

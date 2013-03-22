@@ -1,0 +1,15 @@
+@(message: String)
+
+@main("Welcome to Play 2.1") {
+
+    <script src='@routes.Assets.at("javascripts/index.js")'></script>
+
+    <h1>FooBar's App</h1>
+
+    <ul id="bars"></ul>
+
+    <form action="@routes.Application.addBar()" method="POST">
+        <input name="name">
+        <input type="submit">
+    </form>
+}
